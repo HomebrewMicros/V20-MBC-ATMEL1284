@@ -34,7 +34,7 @@
         <documentation help="" />
         <offline-documentation help="" />
         <dependencies>
-          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.43.0" />
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.44.1" />
         </dependencies>
       </framework-data>
     </AsfFrameworkConfig>
@@ -49,6 +49,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <AvrGccCpp>
+  <avrgcc.common.Device>-mmcu=atmega1284p -B "%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\gcc\dev\atmega1284p"</avrgcc.common.Device>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -60,7 +61,7 @@
     <ListValues>
       <Value>__AVR_ATmega1284p__</Value>
       <Value>__AVR_ATmega1284P__</Value>
-      <Value>ARDUINO=108015</Value>
+      <Value>ARDUINO=108016</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=16000000L</Value>
       <Value>__AVR__</Value>
@@ -71,17 +72,17 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../V20-MBC-ATMEL1284</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/EEPROM/src</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles/travis-ci</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/variants/standard</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A//lib/gcc/avr/7.3.0/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include-fixed</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include/avr</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.2/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.3/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/Wire/src</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/EEPROM/src</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles/travis-ci</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/variants/standard</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7//lib/gcc/avr/7.3.0/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include-fixed</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include/avr</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.3/include</Value>
       <Value>{vm.intellisense.add-paths}</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
@@ -97,7 +98,7 @@
     <ListValues>
       <Value>__AVR_ATmega1284p__</Value>
       <Value>__AVR_ATmega1284P__</Value>
-      <Value>ARDUINO=108015</Value>
+      <Value>ARDUINO=108016</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=16000000L</Value>
       <Value>__AVR__</Value>
@@ -108,17 +109,17 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../V20-MBC-ATMEL1284</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/EEPROM/src</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles/travis-ci</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/variants/standard</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A//lib/gcc/avr/7.3.0/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include-fixed</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include/avr</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.2/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.3/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/Wire/src</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/EEPROM/src</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles/travis-ci</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/variants/standard</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7//lib/gcc/avr/7.3.0/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include-fixed</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include/avr</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.3/include</Value>
       <Value>{vm.intellisense.add-paths}</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
@@ -127,14 +128,25 @@
   <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
   <avrgcccpp.compiler.optimization.DebugLevel>Default (-g2)</avrgcccpp.compiler.optimization.DebugLevel>
   <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
+  <avrgcccpp.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\include\</Value>
+    </ListValues>
+  </avrgcccpp.assembler.general.IncludePaths>
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../V20-MBC-ATMEL1284;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src/utility;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/EEPROM/src;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles/travis-ci;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/variants/standard;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A//lib/gcc/avr/7.3.0/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include-fixed;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include/avr;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.2/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.3/include;{vm.intellisense.add-paths};C:/Users/marke/DEVELO~1/V20-MB~1/V20-MB~1;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/cores/MCUDUD~1;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/variants/standard;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/LIBRAR~1/Wire/src;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/LIBRAR~1/EEPROM/src;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../V20-MBC-ATMEL1284;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src/utility;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/EEPROM/src;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles/travis-ci;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/variants/standard;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A//lib/gcc/avr/7.3.0/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include-fixed;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include/avr;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.2/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.3/include;{vm.intellisense.add-paths};C:/Users/marke/DEVELO~1/V20-MB~1/V20-MB~1;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/cores/MCUDUD~1;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/variants/standard;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/LIBRAR~1/Wire/src;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/LIBRAR~1/EEPROM/src;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/Wire/src;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/Wire/src/utility;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/EEPROM/src;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles/travis-ci;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7//lib/gcc/avr/7.3.0/include;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include-fixed;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include/avr;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.2/include;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.3/include;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/variants/standard;C:/Users/mark/DEVELO~1/V20-MB~2;</VMSETTING_IncludePaths>
+    <VisualMicroSettings>
+      <VisualMicroSettings xmlns="">
+        <config.Debug.customdebug_MightyCore_1284_debugger_type>universal</config.Debug.customdebug_MightyCore_1284_debugger_type>
+      </VisualMicroSettings>
+    </VisualMicroSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrGccCpp>
+  <avrgcc.common.Device>-mmcu=atmega1284p -B "%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\gcc\dev\atmega1284p"</avrgcc.common.Device>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -146,7 +158,7 @@
     <ListValues>
       <Value>__AVR_ATmega1284p__</Value>
       <Value>__AVR_ATmega1284P__</Value>
-      <Value>ARDUINO=108015</Value>
+      <Value>ARDUINO=108016</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=16000000L</Value>
       <Value>__AVR__</Value>
@@ -157,17 +169,17 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../V20-MBC-ATMEL1284</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/EEPROM/src</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles/travis-ci</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/variants/standard</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A//lib/gcc/avr/7.3.0/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include-fixed</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include/avr</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.2/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.3/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/Wire/src</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/EEPROM/src</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles/travis-ci</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/variants/standard</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7//lib/gcc/avr/7.3.0/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include-fixed</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include/avr</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.3/include</Value>
       <Value>{vm.intellisense.add-paths}</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
@@ -183,7 +195,7 @@
     <ListValues>
       <Value>__AVR_ATmega1284p__</Value>
       <Value>__AVR_ATmega1284P__</Value>
-      <Value>ARDUINO=108015</Value>
+      <Value>ARDUINO=108016</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=16000000L</Value>
       <Value>__AVR__</Value>
@@ -194,17 +206,17 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../V20-MBC-ATMEL1284</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/EEPROM/src</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles/travis-ci</Value>
-      <Value>C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/variants/standard</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A//lib/gcc/avr/7.3.0/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include-fixed</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include/avr</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.2/include</Value>
-      <Value>C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.3/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/Wire/src</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/EEPROM/src</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles/travis-ci</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/variants/standard</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7//lib/gcc/avr/7.3.0/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include-fixed</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include/avr</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.3/include</Value>
       <Value>{vm.intellisense.add-paths}</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
@@ -213,12 +225,25 @@
   <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
   <avrgcccpp.compiler.optimization.DebugLevel>Default (-g2)</avrgcccpp.compiler.optimization.DebugLevel>
   <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
+  <avrgcccpp.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\include\</Value>
+    </ListValues>
+  </avrgcccpp.assembler.general.IncludePaths>
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../V20-MBC-ATMEL1284;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src/utility;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/EEPROM/src;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles/travis-ci;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/variants/standard;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A//lib/gcc/avr/7.3.0/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include-fixed;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include/avr;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.2/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.3/include;{vm.intellisense.add-paths};C:/Users/marke/DEVELO~1/V20-MB~1/V20-MB~1;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/cores/MCUDUD~1;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/variants/standard;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/LIBRAR~1/Wire/src;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/LIBRAR~1/EEPROM/src;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../V20-MBC-ATMEL1284;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/Wire/src/utility;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/libraries/EEPROM/src;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/cores/MCUdude_corefiles/travis-ci;C:/Users/marke/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.2/variants/standard;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A//lib/gcc/avr/7.3.0/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include-fixed;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/avr/include/avr;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.2/include;C:/Users/marke/AppData/Local/ARDUIN~1/packages/arduino/tools/avr-gcc/730-AT~1.1-A/lib/gcc/avr/4.9.3/include;{vm.intellisense.add-paths};C:/Users/marke/DEVELO~1/V20-MB~1/V20-MB~1;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/cores/MCUDUD~1;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/variants/standard;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/LIBRAR~1/Wire/src;C:/Users/marke/AppData/Local/ARDUIN~1/packages/MIGHTY~1/hardware/avr/21DE99~1.2/LIBRAR~1/EEPROM/src;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/Wire/src;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/Wire/src/utility;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/libraries/EEPROM/src;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/cores/MCUdude_corefiles/travis-ci;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7//lib/gcc/avr/7.3.0/include;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include-fixed;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include/avr;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.2/include;C:/Users/mark/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/4.9.3/include;C:/Users/mark/AppData/Local/arduino15/packages/MightyCore/hardware/avr/2.1.3/variants/standard;C:/Users/mark/DEVELO~1/V20-MB~2;</VMSETTING_IncludePaths>
+    <VisualMicroSettings>
+      <VisualMicroSettings xmlns="">
+        <config.Debug.customdebug_MightyCore_1284_debugger_type>universal</config.Debug.customdebug_MightyCore_1284_debugger_type>
+      </VisualMicroSettings>
+    </VisualMicroSettings>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="V20-MBC-ATMEL1284.atsln">
+      <SubType>compile</SubType>
+    </None>
     <None Include="V20-MBC-ATMEL1284.ino">
       <SubType>compile</SubType>
     </None>
